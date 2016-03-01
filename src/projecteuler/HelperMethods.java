@@ -65,6 +65,25 @@ public class HelperMethods
         return primeList;
     }
 
+    public static boolean isPrime(String inputString)
+    {
+        long inputNumber = Long.parseLong(inputString);
+        long currentDivisor = 2;
+        double squareRoot = Math.sqrt(inputNumber);
+        while (currentDivisor <= squareRoot)
+        {
+            if (inputNumber % currentDivisor == 0)
+            {
+                return false;
+
+            } else
+            {
+                currentDivisor++;
+            }
+        }
+        return true;
+    }
+    
     public static boolean isPrime(long inputNumber)
     {
         long currentDivisor = 2;
