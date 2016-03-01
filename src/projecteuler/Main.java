@@ -5,21 +5,6 @@
  */
 package projecteuler;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.math.BigInteger;
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  *
  * @author max
